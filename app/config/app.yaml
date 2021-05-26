@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-	image: eu.gcr.io/zzygsbe9fte/app
+        image: eu.gcr.io/zzygsbe9fte/app
 ---
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
