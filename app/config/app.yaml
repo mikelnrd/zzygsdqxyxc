@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: europe-west2-docker.pkg.dev/zzygsbe9fte/zzygsbe9fte/app:1.0.0
+        image: europe-west2-docker.pkg.dev/zzygr9sfbw5/zzygr9sfbw5/app:1.0.0
 ---
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
